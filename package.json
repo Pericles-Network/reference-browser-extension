@@ -1,0 +1,32 @@
+{
+  "name": "@pericles/reference-browser-extension",
+  "displayName": "Reference Browser Extension for Pericles Network",
+  "version": "1.0.0",
+  "description": "Reference implementation of a browser extension using Pericles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./scripts/dev.mjs",
+    "dev:ff": "node ./scripts/dev.mjs --target=firefox",
+    "build": "node ./scripts/build.mjs"
+  },
+  "author": "Pericles Network Developers",
+  "license": "GNUv3",
+  "devDependencies": {
+    "@flagpoonage/tools": "^1.0.4",
+    "@types/chrome": "^0.0.241",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "esbuild": "^0.18.13",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3",
+    "zod": "^3.22.4"
+  }
+}
